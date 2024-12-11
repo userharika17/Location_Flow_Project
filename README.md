@@ -1,4 +1,4 @@
-# Geolocation App
+# Location Flow App
 
 A React-based geolocation application that integrates Google Maps, Axios for API calls, and React Modal for displaying additional information. This app provides location-based services and maps visualization.
 
