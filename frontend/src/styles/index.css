@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #84b9ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .landing-page {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  
+  .app-name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-emphasis-color: #4ab01700;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .app-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555555;
+  }
+  
+  .permissions-note {
+    font-size: 1rem;
+    color: #777777;
+    margin-bottom: 10px;
+  }
+  
+  .permissions-list {
+    list-style-type: disc;
+    text-align: left;
+    margin: 0 auto 20px;
+    padding-left: 20px;
+    color: #555555;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .primary-btn,
+  .secondary-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .primary-btn:hover {
+    background-color: #43a047;
+  }
+  
+  .secondary-btn {
+    background-color: #e0e0e0;
+    color: #555555;
+    transition: background-color 0.3s;
+  }
+  
+  .secondary-btn:hover {
+    background-color: #d6d6d6;
+  }
+  
